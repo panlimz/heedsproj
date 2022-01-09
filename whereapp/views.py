@@ -77,8 +77,6 @@ def findplacesdate(request):
     searchdatelist = list(getsearchdate)
     placelist = Place.objects.all()
     
-    print(searchdate)
-    
     return render(request, 'findplacesdate.html', {'form': form, 'placelist': placelist, })
 
 #Adding a Place
