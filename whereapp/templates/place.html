@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+<br><div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+    <div class="card-header"><h5>{{ place }}</h5></div>
+        <div class="card-body">
+            <p class="card-text">
+                Latitude: {{ place.latitude }}<br>
+                Longitude: {{ place.longitude }}<br>
+                Visit Date: {{ place.date|date:" d M Y" }}<br>
+            </p>
+        </div>
+    </div>
+
+    <a href="{% url 'editplace' place.id %}"><input type="submit" value="Update" class="btn btn-outline-primary"></a>
+    <a href="{% url 'deleteplace' place.id %}"><input type="submit" value="Delete" class="btn btn-outline-danger"></a>
+    <br><br><a href="{% url 'placeslist' %}"><input type="submit" value="Return" class="btn btn-outline-secondary"></a><br>
+        
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<br><h3>Add a new place</h3><br>
+    {% if submitted %}
+        Your Place was submitted successfully!
+    {% else %}
+        <div class="container">
+            <form action="" method=POST>
+                {% csrf_token %}
+                {{form.as_p}}
+                <input type="submit" value="Submit" class="btn btn-outline-success"><br>
+            </form>
+        </div>
+    {% endif %}
+
+{% endblock %}

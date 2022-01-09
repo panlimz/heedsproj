@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <br><h3>Edit Place</h3><br><br>
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <br><input type="submit" value="Save" class="btn btn-outline-success"></a><br>
+    </form>
+    <br><a href="{% url 'placeslist' %}"><input type="submit" value="Return" class="btn btn-outline-secondary"></a><br>
+</div>
+
+{% endblock %}

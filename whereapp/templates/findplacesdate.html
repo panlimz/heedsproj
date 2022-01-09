@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<br><h2>Welcome to Where App</h2><br>
+   
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            {% for place in placelist %}
+              {% if place.date == searchdate %}
+                {{ place.name }}<br>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="col">
+            <h3>Find a Place</h3><br>
+                <div class="row">
+                    <div class="col">
+                        <h5>By Date</h5>
+                        <form class="d-flex" method="POST">
+                            {% csrf_token %}
+                            {{ form }}
+                            <button class="btn btn-outline-success" type="submit" name="datesearch">Search</button>
+                    </div>
+                    <p>Format: mm/dd/aaaa</p>
+                </div>
+          </div>
+    </div>
+
+
+{% endblock %}

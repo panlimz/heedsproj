@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <br><h3>Here is your places</h3><br>
+        <div class="container">
+            <div class="list-group" >
+                {% for place in placeslist %}
+                    <tr>
+                        <td>
+                            <a href="{% url 'place' place.id %}" class="list-group-item list-group-item-action">{{ place }}</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </div>
+        </div>
+    
+{% endblock %}
