@@ -18,9 +18,11 @@ Além da lista mencionada acima, também é possível visualizar os locais atrav
 <br>**- Find Places by Region** exibe um formulário onde pode ser possível descrever qualquer local do globo. O mapa à sua esquerda retorna a exibição daquela localização, e é possível detectar qualquer local destacado por um marcador.
 <br>**- Find Places by Date** exibe um formulário onde pode ser possível descrever qualquer data. À sua esquerda será exibida uma lista com o nome de todos os locais visitados naquela data.
 
-> Tentei disponibilizar esta aplicação em pleno funcionamento através do Heroku, [aqui](https://heedswhereapp.herokuapp.com). Neste momento, ainda está em desenvolvimento (parcialmente funcional).
+---
+### Uma versão funcional desta aplicação está disponível através do Heroku, [aqui](https://heedswhereapp.herokuapp.com). 
+---
 
-## Como usar
+## Como usar localmente
 Este projeto ainda possui algumas limitações, portanto, é necessário configurar seu próprio banco de dados local (foi utilizado postgreSQL) em _settings.py._, conforme a seguir:
 <br>
 <pre><code>DATABASES = {
