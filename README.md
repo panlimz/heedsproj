@@ -1,3 +1,52 @@
+🇺🇸
+## Welcome to Where App!
+
+The application "Where", is an application developed using the Django framework, in order to store information about existing locations in a database. These data can be inserted, edited, filtered and corrected by the user, who does not require registration to manipulate the data.
+
+Applicable packages for this application are listed in 'requirements.txt'.
+
+## Functions
+### ** Add a Location **
+This application makes it possible to add a new location from the home page by accessing the drop-down menu _> Places > Add a location._
+
+### ** Edit a location **
+You can edit a place by selecting it from your list of places, available from the home page at by going to the drop-down menu _> Places > List Places._
+<br> When accessing the location, it is also possible to delete it.
+
+### ** View Locations **
+In addition to the list mentioned above, it is also possible to view locations through two filters: by date and region.
+<br> In _> Places> Find Places._ the two search options are shown, and prefer as follows:
+<br> ** - Find Locations by Region ** displays a form where any location on the globe can be possible. The map on your left returns to the location view, and you can detect any location highlighted by a marker.
+<br> ** - Find Places by Date ** displays a form where any data can be possible. To its left a list with the name of all local places on that date will be displayed.
+
+---
+### A working version of this application is available through Heroku, [here] (https://heedswhereapp.herokuapp.com).
+---
+
+## How to use locally
+This project still has some limitations, so you need to set up your own local database (postgreSQL was used) in _settings.py._, as follows:
+<br>
+<pre> <code> DATABASES = {
+    'standard': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'servername',
+        'USER': 'server user',
+        'PASSWORD': 'password server',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    } </code> </pre>
+
+To start the server, just open the project terminal and run:
+<pre> <code> python manage.py runserver </code> </pre>
+
+It is also (still) necessary that search data already exist, so it is necessary to have a super user to access the administrator, through:
+<pre> <code> python manage.py makesuperuser </code> </pre>
+
+When accessing the admin page, just add data to _Survey Dates_ and _Surveys_. 
+
+---
+
+🇧🇷
 ## Bem vindo ao Where App!
 
 A aplicação "Where", é uma aplicação desenvolvida utilizando o framework Django, a fim de armazenar informações dos locais já visitados em um banco de dados. Estes dados poderão ser inseridos, editados, filtrados e listados pelo usuário, que não requer cadastro para manipulação dos dados. 
