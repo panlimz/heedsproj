@@ -41,3 +41,23 @@ Também (ainda) é necessário que já existam dados de busca, portanto é neces
 
 Ao acessar a página de administrador, basta adicionar dados à _Searchdates_ e _Searchs_.
 
+Esses passos devem ser suficientes pra que ele se torne funcional. Aqui estão algumas telas de exemplo:
+
+## Aplicação em funcionamento
+### __- HomePage__
+![This is an image](https://lh3.googleusercontent.com/pw/AM-JKLWYWvEsToKF2dkhlZr5yWX8fPxp2G3yIdg9fTt-NDSaQGpYN__XrI5QSzXjFrW60zXpWV4k_euN2UVYdlrddjKTRZzXzHKtqGW1gs_0Ra10HA5Da60CVi8q8Hu2o9Vfd7jOLAseJ6mTetEoDCrqmxeA=w1792-h894-no?authuser=0)
+
+### __- Adicionar um local__
+![This is an image](https://lh3.googleusercontent.com/pw/AM-JKLV0rCEyxNgQ9fspXWKWda7KQGd6zGlFrFFnwH8uMFvPBo9qDDZXxmlza2yclqQY96WvgdN9UIgIVrQ1tfsHlOZtk3PuuzeHw2ESSbycP0KrGyZy3AsTVlSCDW-jYOIw_Aig8pFKcqcambms67569lMA=w1803-h894-no?authuser=0)
+
+### __- Lista de locais__
+![This is an image](https://lh3.googleusercontent.com/pw/AM-JKLUjldH03WGx0pmfuGk_VmMDeK61DGFFVqKJH8dpo6D_phA43o1PrpXiIfNYnXIrpvOK105T-T_4hJgOU688xEMwMqmAUQHHSSY7D0j-1hhYdmtv1RXfX5JJeo7nJraKXvUDHqsvKfO1x9ZZsCwQ79to=w1797-h894-no?authuser=0)
+
+### __- Encontrar locais por região__
+![This is an image](https://lh3.googleusercontent.com/pw/AM-JKLWc5V3xUsWdQE_jcFGY0pL85nG7PtCWlNibbHccuZGJ3bdnpy9KLLMA938AkKdVGwlZd5zT_0rlnR2CkMDK2RD9kwnsvaxROFzNzXLs_khvdIcjdKHDnnZuBi6E0lZRkbyNqDPbZxxwPrmU9TcbbK2v=w1807-h894-no?authuser=0)
+
+### __- Encontrar locais por data__
+![This is an image](https://lh3.googleusercontent.com/pw/AM-JKLVzoXl0QGyI7zBWuouVGO6BmGYGuH4-Gb-e2OTcQiprIkq_IAGvGSSb4NOr1KMyoM2KJHk5v-gq-TnKE5GbTRRzid-vg19SXKscAQSWA0honfz9HPolD6J9fpjju5qz10Cd4SUzGWLVOEhIjShnnw8q=w1790-h894-no?authuser=0)
+
+
+Se você tem quaisquer feedbacks sobre este projeto, sinta-se à vontade em me contatar pelos meios disponíveis no meu [Perfil](https://github.com/panlimz). 
