@@ -7,7 +7,11 @@
     <div class="container">
         <div class="row">
           <div class="col">
-            
+            {% for place in placelist %}
+              {% if place.date == datesearch %}
+                {{ place.name }}<br>
+              {% endif %}
+            {% endfor %}
           </div>
           <div class="col">
             <h3>Find a Place</h3><br>
