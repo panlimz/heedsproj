@@ -20,7 +20,7 @@ class Search(models.Model):
 
 #Creating date search model
 class Searchdate(models.Model):
-    searchdate = models.DateField(default=datetime.now, blank=True)
+    searchdate = models.DateField(blank=True)
 
     def __str__(self) -> str:
         return self.searchdate 
