@@ -15,15 +15,15 @@ import dj_database_url
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 # Extra places for collectstatic to find static files.
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
@@ -32,7 +32,7 @@ STATICFILES_DIRS = (
 SECRET_KEY = 'django-insecure-u!@+6jw_thqlgs78eyd439jdo!luz_#&pm593_^kg%597gefka'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 DISABLE_COLLECTSTATIC=1
 
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'heedswhereapp.herokuapp.com']
